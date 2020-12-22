@@ -1,0 +1,36 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Make prompt a single line instead of two lines
+[line_break]
+disabled = true
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]
+# The "success_symbol" segment is being set to "➜" with the color "bold green"
+use_symbol_for_status = true
+success_symbol = "[➜](bold green)"
+error_symbol = "[✖](bold red)"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# shows the hostname on new lines
+[hostname]
+ssh_only = false
+format = "[$hostname]($style) in "
+
+# configure directory
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[cmd_duration]
+format = "took [$duration]($style) "
+
+[env_var]
+format = "with [$env_value]($style) "
+
+[time]
+time_format = "%T"
+format = "at 🕙[$time]($style) "
