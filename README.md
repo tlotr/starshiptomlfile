@@ -20,3 +20,5 @@ Add the following to the end of ~/.bashrc:
 # ~/.bashrc
 
 eval "$(starship init bash)"
+
+-- Place the startship.toml file in ~/.config/
