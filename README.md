@@ -3,6 +3,7 @@
 My .toml file for Starship
 
 Official website: https://starship.rs/
+
 Github: https://github.com/starship/starship
 
 -- Install the starship binary:
