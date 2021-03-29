@@ -20,6 +20,8 @@ disabled = true
 [hostname]
 ssh_only = false
 format = "[$hostname]($style) in "
+#style = "bold dimmed yellow"
+style = "bold blue"
 
 # configure directory
 [directory]
@@ -51,8 +53,8 @@ threshold = 30
 style = "bold yellow"
 
 [username]
-style_user = "red bold"
-style_root = "bold yellow"
+style_user = "bold yellow"
+style_root = "bold green"
 format = "[$user]($style) on "
 disabled = false
 show_always = true
