@@ -6,7 +6,8 @@ Official website: https://starship.rs/
 
 Github: https://github.com/starship/starship
 
-To install starship in Linux => sudo curl -sS https://starship.rs/install.sh | sh
+To install starship in Linux => sudo curl -sS https://starship.rs/install.sh | sh 
+
 Place the **starship.toml** file in ~/.config/
 
 To install in powershell run => choco install starship
