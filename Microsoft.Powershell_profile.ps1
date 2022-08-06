@@ -7,6 +7,7 @@ Invoke-Expression (&starship init powershell)
 #Set-PoshPrompt -Theme powerlevel10k_rainbow
 
 # Import the Terminal Icons
+# To install this module run the command => Install-Module -Name Terminal-Icons -RequiredVersion 0.9.0
 Import-Module -Name Terminal-Icons
 
 # Remember History
