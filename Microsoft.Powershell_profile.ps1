@@ -1,5 +1,6 @@
 # Starship
 Invoke-Expression (&starship init powershell)
+$ENV:STARSHIP_CONFIG = "C:\Users\usernamehere\Documents\starship_config\starship.toml"
 
 #cls
 
