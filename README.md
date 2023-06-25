@@ -17,6 +17,7 @@ To install Chocolatey run the below in powershell
 1. Set-ExecutionPolicy AllSigned 
 2. Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-If you are using a desktop then remove everything under battery and only add **disabled: true**
+If you are using a desktop then remove everything under battery and only add **disabled: true** in the starship.toml file. This is to remove the annoying message from the terminal of not finding the battery.
 
-This is to remove the annoying message from the terminal of not finding the battery.
+To install Terminal Icons run the below command in powershell
+Install-Module -Name Terminal-Icons -Repository PSGallery
